@@ -1,0 +1,48 @@
+P1
+A B C D
+D
+P2
+A B C D
+D
+P3
+A B C D
+C
+P4
+A B C D
+A
+P5
+A B C D
+B
+P6
+A B C D
+B
+P7
+A B C D
+C
+P8
+A B C D
+D
+P9
+A B C D
+A
+P10
+A B C D
+B
+P11
+A B C D
+A
+P12
+A B C D
+B
+P13
+A B C D
+D
+P14
+A B C D
+C
+P15
+A B C D
+B
+P16
+A B C D
+D

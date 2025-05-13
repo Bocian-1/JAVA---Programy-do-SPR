@@ -1,0 +1,64 @@
+Student 2: P1
+Odpowiedź: A (poprawna: D)
+Student 2: P2
+Odpowiedź: B (poprawna: D)
+Student 2: P3
+Odpowiedź: C (poprawna: C)
+Student 2: P4
+Odpowiedź: D (poprawna: A)
+Student 2: P5
+Odpowiedź: A (poprawna: B)
+Student 2: P6
+Odpowiedź: C (poprawna: B)
+Student 2: P7
+Odpowiedź: B (poprawna: C)
+Student 2: P8
+Odpowiedź: D (poprawna: D)
+Student 2: P9
+Odpowiedź: A (poprawna: A)
+Student 2: P10
+Odpowiedź: B (poprawna: B)
+Student 2: P11
+Odpowiedź: C (poprawna: A)
+Student 2: P12
+Odpowiedź: D (poprawna: B)
+Student 2: P13
+Odpowiedź: A (poprawna: D)
+Student 2: P14
+Odpowiedź: B (poprawna: C)
+Student 2: P15
+Odpowiedź: C (poprawna: B)
+Student 2: P16
+Odpowiedź: D (poprawna: D)
+Student 1: P1
+Odpowiedź: A (poprawna: D)
+Student 1: P2
+Odpowiedź: C (poprawna: D)
+Student 1: P3
+Odpowiedź: D (poprawna: C)
+Student 1: P4
+Odpowiedź: A (poprawna: A)
+Student 1: P5
+Odpowiedź: B (poprawna: B)
+Student 1: P6
+Odpowiedź: C (poprawna: B)
+Student 1: P7
+Odpowiedź: D (poprawna: C)
+Student 1: P8
+Odpowiedź: A (poprawna: D)
+Student 1: P9
+Odpowiedź: C (poprawna: A)
+Student 1: P10
+Odpowiedź: D (poprawna: B)
+Student 1: P11
+Odpowiedź: A (poprawna: A)
+Student 1: P12
+Odpowiedź: B (poprawna: B)
+Student 1: P13
+Odpowiedź: C (poprawna: D)
+Student 1: P14
+Odpowiedź: A (poprawna: C)
+Student 1: P15
+Odpowiedź: D (poprawna: B)
+Student 1: P16
+Odpowiedź: C (poprawna: D)
