@@ -1,0 +1,16 @@
+SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
+START TRANSACTION;
+SET time_zone = "+00:00";
+CREATE DATABASE IF NOT EXISTS `quiz` DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci;
+USE `quiz`;
+CREATE TABLE `odpowiedzi` (`id` int(11) NOT NULL, `klient_id` int(11) DEFAULT NULL, `pytanie` text DEFAULT NULL, `odpowiedz` varchar(255) DEFAULT NULL, `poprawna` varchar(255) DEFAULT NULL) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+CREATE TABLE `pytania` (`id` int(11) NOT NULL, `tresc` text NOT NULL, `odpowiedzi` text NOT NULL, `poprawna` varchar(255) NOT NULL) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+INSERT INTO `pytania` (`id`, `tresc`, `odpowiedzi`, `poprawna`) VALUES (1, 'Ile wynosci wysokość nad poziomem morza Morskiego Oka?', 'a) Chrzest Polski b) Bitwa pod Grunwaldem c) Upadek Komuny Paryskiej', 'b'), (2, 'Amerykańskie taryfy na Chiny?', 'a) 145% b) 10% c) ???', 'c'), (3, 'Które państwo ma granice londowe z dokładnie 2 innymi państwami?', 'a) Dżibuti b) Bhutan c) Brunei', 'b'), (4, 'Prędkość transferu danych w USB 3.1?', 'a) 5GBit/s b) 0.5GBit/s c) 10GBit/s', 'a');
+CREATE TABLE `wyniki` (`id` int(11) NOT NULL, `klient_id` int(11) DEFAULT NULL, `wynik` int(11) DEFAULT NULL) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+ALTER TABLE `odpowiedzi` ADD PRIMARY KEY (`id`);
+ALTER TABLE `pytania` ADD PRIMARY KEY (`id`);
+ALTER TABLE `wyniki` ADD PRIMARY KEY (`id`);
+ALTER TABLE `odpowiedzi` MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
+ALTER TABLE `pytania` MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
+ALTER TABLE `wyniki` MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
+COMMIT;
